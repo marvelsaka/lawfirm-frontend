@@ -1,0 +1,342 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.navbar{
+    background-color: black;
+    color: white;
+    height: 100px;
+    position: fixed ;
+    width: 100%;
+    z-index: 1;
+    margin-top: -30px;
+}
+ul{
+    list-style-type: none;
+}
+.logo{
+    font-size: x-large;
+    font-weight: bold;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: lightgreen;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0px 100px;
+   
+}
+.navbar ul{
+    display: flex; 
+}
+.navbar li{
+    margin-left: 30px;
+   
+}
+.navbar a:active{
+     color: lightgreen;
+}
+.header{
+    min-height: 400px;
+   
+}
+.hi{
+   
+    height: 700px;
+    width: 50%;
+    
+    
+}
+.boo{
+     justify-content: center;
+    align-content: center;
+    display: flex;
+    padding-top: 100px;
+    
+
+   
+}.poo{
+     justify-content: center;
+    align-content: center;
+    display: flex;
+    padding-top: 100px;
+    
+
+   
+}
+.hi h1{
+    font-size:150px;
+    font-weight: bold;
+    line-height:1.2 ;
+    text-align: center;
+  
+    
+}
+
+.hey{
+    height: 600px;
+      width: 50%;
+      
+}
+.hey p{
+    text-align: center;
+    font-size: 30px;
+}
+.hey img{
+    max-width: 600px;
+    border-radius: 20px;
+    
+
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hate{
+    margin-top: -110px;
+    font-size: 30px;
+    text-align: center;
+}
+.hate p{
+    line-height: 1.5px;
+}
+
+.boxes .container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 100px;
+}
+.love{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.love .death{
+    font-size: 30px;
+    line-height: 1.5px;
+}
+.box{
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.089);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 20px 100px;
+    padding: 15px 20px;
+    max-width: 400px;
+    border: 1px solid white;
+}
+.box h1{
+    font-size: 30px;
+    text-align: center;
+}
+.dogg{
+    width: 400px;
+ 
+    margin-top: -80px;
+}
+
+
+
+@media (max-width: 1400px) {
+   /*.whole{
+        width: 360px;
+        background-color: rgb(48, 48, 48);
+    }*/
+   .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0px 15px;
+}
+.logo{
+    font-size: x-large;
+    font-weight: bold;
+}
+.navbar li{
+    margin-left: 10px;
+
+}
+.hi h1{
+    font-size: 100px;
+}
+.hey img{
+    width: 400px;
+}
+.boo{
+    padding-top: 200px;
+}
+.boxes .container{
+    flex-direction: column;
+}
+.box{
+    margin: 40px auto;
+}
+.hate{ margin-left: -550px;}
+
+
+}
+
+@media(max-width: 850px){
+    .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0px 10px;
+    
+  
+}
+.navbar{
+    height: 60px;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar li{
+    margin-left: 10px;
+   font-size: 10px;
+}
+.hero{
+    flex-direction: column;
+}
+.boo{
+    padding-top: 0px;
+
+   
+
+}
+.poo{
+    padding: 0px;
+        
+        font-size: 20px;
+    
+}
+.hey{
+    height: 300px;
+    margin-bottom: 100px;
+}
+.hi{
+    height: 300px;
+   
+}
+.hey img{
+    margin-top: 70px;
+    
+}
+.boxes{
+    margin-top: -80px;
+}
+.hate{
+    font-size: 20px;
+    margin-left: auto;
+    margin-top: 350px;
+}
+.love
+{
+    margin-top: 30px;
+}
+
+.love .death{
+    font-size: 15px;
+}
+
+}
+@media (max-width: 700px){
+     .box {
+        width: 300px;
+
+      }
+
+
+
+
+
+
+}
+@media(max-width: 500px){
+    
+    .navbar{
+    max-width: 480px;
+    min-width: 350px;
+
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+    padding: 0px 10px;
+}
+.logo{
+    font-size: 12px;
+    font-weight: bold;
+}
+.navbar li{
+    margin-left: 10px;
+   font-size: 7px;
+}
+.hero{
+    flex-direction: column;
+}
+.boo{
+    padding-top: 0px;
+
+   
+
+}
+.poo{
+    padding: 0px;
+        
+        font-size: 20px;
+    
+}
+.hey{
+    height: 300px;
+    margin-bottom: 100px;
+}
+.hi{
+    height: 300px;
+   
+}
+.hey img{
+    width: 300px;
+}
+.hate{
+    margin-top: 180px;
+}
+.love .death{
+    font-size: 10px;
+}
+.hate{
+    font-size: 20px;
+    margin-left: auto;
+    margin-top: 170px;
+}
+.love
+{
+    margin-top: 30px;
+}
+
+
+
+
+}
+
+
+  

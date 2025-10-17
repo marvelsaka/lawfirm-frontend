@@ -1,0 +1,362 @@
+body{
+background-color: rgb(0, 0, 0);
+overflow: hidden;
+color: white;
+
+}
+img{
+  margin-top: -400px;
+  margin-left: 700px;
+  width: 1800px;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 100px;
+    position: fixed ;
+    width: 100%;
+    z-index: 1;
+    margin-top: -10px;
+    overflow: hidden;
+}
+ul{
+    list-style-type: none;
+}
+.logo{
+    font-size: x-large;
+    font-weight: bold;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: lightgreen;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0px 100px;
+   
+}
+.navbar ul{
+    display: flex; 
+}
+.navbar li{
+    margin-left: 30px;
+   
+}
+.navbar a:active{
+     color: lightgreen;
+}
+.message{
+    margin-top: -700px;
+    margin-left: 200px;
+    position: absolute;
+}
+.head{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.contact{
+      margin-top: -700px;
+      margin-left: 1100px;
+      color: black;
+      display: flex;
+      flex-direction: column;
+   
+}
+.con{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sign{
+        size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.yo{
+    width: 300px;
+    height: 25px;
+    border: 1px solid black; border-radius: 50px;
+    padding-left: 20px;
+    font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.yi{
+    width: 300px;
+    height: 25px;
+    border: 1px solid black; border-radius: 50px;
+    padding-left: 20px;
+    font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+.ya{
+    border: 1px solid black; 
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.marvel{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+   transform: translateY(20px);
+   margin-left: -335px;
+   font-size: 18px;
+}
+.don{
+    margin-left: 330px;
+    margin-top: -40px;
+}
+
+
+
+
+@media (max-width: 1500px) {
+  
+   .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0px 15px;
+}
+.logo{
+    font-size: x-large;
+    font-weight: bold;
+}
+.navbar li{
+    margin-left: 10px;
+
+}
+.contact{
+      margin-top: -700px;
+      margin-left: 600px;
+      color: black;
+   
+}
+.con h1{
+    transform: translateX(-50px);
+    width: 600px;
+}
+.message{
+    margin-top: -700px;
+    margin-left: 100px;
+    position: absolute;
+}
+img{
+  margin-top: -400px;
+  margin-left: 450px;
+  width: 1800px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+@media(max-width: 1100px){
+    .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0px 10px;
+    
+  
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar li{
+    margin-left: 10px;
+   font-size: 10px;
+}
+.message{
+    margin-top: -700px; 
+    margin-left: 700px;
+    
+}
+body{
+    background-color: white;
+}
+.contact{
+      margin-top: -700px;
+      margin-left: 90px;
+      color: black;
+
+
+   
+}
+.sign{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar{
+    background-color: black;
+    color: white;   
+    height: 60px;
+    position: fixed ;
+    width: 101%;
+    z-index: 1;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.con h1{
+    transform: translateX(-80px);
+    width: 600px;
+    font-size: 80px;
+    margin: 0px auto;
+}
+
+.contact{
+    transform: translateY(70px);
+}
+.yi{
+    width: 400px;
+    height: 36px;
+    
+}
+.yo{
+    width: 400px;
+    height: 36px;
+    
+}
+.ya{
+    font-size: 28px;
+}
+.marvel{
+    margin-left: -450px;
+}
+
+
+}
+@media(max-width: 500px){
+    body{
+        max-width: 490px;
+        
+    }
+   
+      .yi{
+     width: 200px;
+    height: 17px;
+    font-size: 13px;
+    padding-left:10px;
+} 
+img{
+    width: 100px;
+    z-index: -1;
+    margin-left: 100px;
+    margin-top: 70px;
+    
+   
+}   
+.yo{
+    width: 200px;
+    height: 17px;
+    font-size: 13px;
+    padding-left:10px;
+    transform: translateY(5px);
+    
+}
+.message{
+    margin-top: 70px; 
+    margin-left: 100px;
+    max-width: 480px;
+    color: black;
+    width: 300px;
+    
+    
+}
+.top{
+    font-size: 13px;
+    margin-left: -70px;
+    line-height: 1.8;
+}
+
+.head{
+    font-size: 20px;
+    margin-left: 50px;
+    transform: translateY(-90px);
+   
+}
+    .con h1{
+        font-size: 30px;
+    }
+    .ya{
+        font-size: 13px;
+        border-radius: 5px;
+        padding-left: 10px;
+        margin-top: 10px;
+       
+    }
+    .marvel{
+        margin-left: -40px;
+        transform: translateY(15px);
+        width: 60px;
+        height: 20px;
+        font-size: 10px;
+       
+    }
+    .don{
+        margin-top: -50px;
+        margin-left: 50px;
+        
+    }
+    .navbar{
+    max-width: 480px;
+    min-width: 350px;
+
+}
+.con{
+    margin-left: 20px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+    padding: 0px 30px;
+}
+.logo{
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar li{
+    margin-left: 10px;
+   font-size: 7px;
+}
+.sign{
+        size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.contact{
+    margin-top: 45px;
+    margin-left: 110px;
+    max-width: 480px;
+    width: 200px;
+}
+
+
+
+
+
+}

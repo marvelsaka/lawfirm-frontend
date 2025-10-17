@@ -1,0 +1,316 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+
+.navbar{
+    background-color: black;
+    color: white;
+    height: 100px;
+    position: fixed ;
+    width: 100%;
+    z-index: 1;
+    margin-top: -110px;
+}
+ul{
+    list-style-type: none;
+}
+.logo{
+    font-size: x-large;
+    font-weight: bold;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: lightgreen;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0px 100px;
+   
+}
+.navbar ul{
+    display: flex; 
+}
+.navbar li{
+    margin-left: 30px;
+   
+}
+.navbar a:active{
+     color: lightgreen;
+}
+.cppk{
+    color: white;
+    margin-top: 100px;
+    padding: 100px 0px;
+}
+.book{
+    font-size: 100px;
+    text-align: center;
+    padding:0px 250px;
+    color: lawngreen;
+  
+}
+.god{
+    text-align: center;
+    font-size: 30px;
+    padding: 0px 250px;
+}
+
+.boy{
+   font-size: 50px;
+    text-align: center;
+
+}
+.aexir{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1300px;
+    padding: 30px 100px;
+   
+}
+.service{
+    color: lawngreen;
+}
+.obn{
+    display: flex;
+    justify-content: space-between;
+}
+.afc{
+    width: 300px;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+.ben{
+    width: 700px;
+}
+.temi{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.137);
+    border-radius: 20px;
+    padding: 15px 20px;
+    text-align: center;
+}
+.footer{
+   margin-top: 400px;
+   font-size: 25px;
+}
+.foo{
+     display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+@media (max-width: 1400px) {
+   .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0px 15px;
+}
+.logo{
+    font-size: x-large;
+    font-weight: bold;
+}
+.navbar li{
+    margin-left: 10px;
+
+}
+.book{
+    font-size: 60px;
+}
+.god{
+    font-size: 25px;
+}
+.temi{
+    font-size: 15px;
+    width: 300px;
+}
+.foo{
+    transform: translateY(20px);
+}
+.aexir{
+    padding-bottom: none;
+    height: 1000px;
+
+}
+
+}
+
+@media(max-width: 850px){
+    .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0px 10px;
+    
+  
+}
+.navbar{
+    height: 60px;
+
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar li{
+    margin-left: 10px;
+   font-size: 10px;
+}
+.book{
+    font-size: 50px;
+    padding: 0px 10px;
+}
+.god{
+    padding: 0px 20px;
+}
+.temi{
+    font-size: 15px;
+    width: 350px;
+    margin-left: 40px;
+  
+
+}
+.aexir{
+    padding: 0px 10px;
+}
+.afc{
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 140px;
+
+}
+.obn{
+    flex-direction: column;
+
+}
+.boy{
+     font-size: 40px;
+}
+.cppk{
+    transform: translateY(-80px);
+}
+.ben{
+   width: 450px;
+}
+.foo{
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 1100px;
+}
+
+    
+
+
+
+
+}
+@media(max-width: 500px){
+    body{
+        max-width: 490px;
+        min-width: 350px;
+    }
+  
+    .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0px 10px;
+    
+  
+}
+.navbar{
+    max-width: 480px;
+    min-width: 350px;
+    height: 60px;
+
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+    padding: 0px 10px;
+}
+.logo{
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar li{
+    margin-left: 10px;
+   font-size: 7px;
+}
+.book{
+    font-size: 35px;
+    padding: 0px 10px;
+}
+.god{
+    padding: 0px 20px;
+    font-size: 20px;
+}
+.temi{
+    font-size: 10px;
+    width: 200px;
+    margin-left: 30px;
+  
+}
+.bnm{
+    margin-top: -100px;
+}
+.aexir{
+    padding: 0px 10px;
+    margin-top: 0px;
+}
+.afc{
+    width: 150px;
+    margin-top: 15px;
+    margin-right:auto ;
+    margin-left: auto;
+
+}
+.obn{
+    flex-direction: column;
+    
+
+}
+.boy{
+     font-size: 30px;
+     
+}
+.cppk{
+    transform: translateY(-80px);
+}
+.ben{
+   width: 100%;
+}
+.foo{
+    font-size: 7px;
+    font-weight: bold;
+    margin-top: 550px;
+}
+/*.obn{
+     margin: auto auto;
+}*/
+.service{
+    font-size: 25px;
+}
+
+    
+
+
+
+
+}
