@@ -248,7 +248,7 @@ body{
 @media(max-width: 500px){
     body{
         max-width: 490px;
-        
+        overflow: hidden;
     }
    
       .yi{
@@ -328,14 +328,14 @@ img{
 
 .navbar .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
     
     padding: 0px 30px;
 }
 .logo{
-    font-size: 15px;
+    font-size: 10px;
     font-weight: bold;
 }
 .navbar li{

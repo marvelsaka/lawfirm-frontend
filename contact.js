@@ -7,7 +7,7 @@
   const message = document.getElementById("message").value;
 
   try {
-    const response = await fetch("https://lawfirm-backend-1.onrender.com/contact", {
+    const response = await fetch("https://lawfirm-backend-cmg4.onrender.com/contact", {
 
       method: "POST",
       headers: { "Content-Type": "application/json" },

@@ -146,14 +146,14 @@ ul{
  
     margin-top: -80px;
 }
+.death{
+    text-align: center;
+}
 
 
 
 @media (max-width: 1400px) {
-   /*.whole{
-        width: 360px;
-        background-color: rgb(48, 48, 48);
-    }*/
+
    .navbar .container {
     display: flex;
     justify-content: space-between;
@@ -277,14 +277,14 @@ ul{
 
 .navbar .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
     
     padding: 0px 10px;
 }
 .logo{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
 }
 .navbar li{
@@ -332,6 +332,7 @@ ul{
 {
     margin-top: 30px;
 }
+
 
 
 
